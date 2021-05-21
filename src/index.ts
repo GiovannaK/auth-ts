@@ -2,6 +2,9 @@ import 'reflect-metadata';
 import express from 'express';
 import routes from './routes';
 import './database/connect';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 const app = express();
 
